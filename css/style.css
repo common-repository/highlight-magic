@@ -1,0 +1,96 @@
+#highlighter-container {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    z-index: 9999;
+}
+
+#highlighter-dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 5px;
+    background-color: #FFFF00; /* Default Yellow */
+}
+
+#highlighter-remove-icon {
+    font-size: 20px;
+    color: #FF0000; /* Red color */
+    cursor: pointer;
+    margin: 5px;
+    line-height: 20px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+#highlighter-color-picker {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+#highlighter-color-picker .color-option {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 2px;
+    border: 1px solid #000;
+}
+
+/* Alignment Styles */
+.highlighter-top-middle#highlighter-container {
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.highlighter-right-middle#highlighter-container {
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    flex-direction: column;
+}
+
+.highlighter-bottom-middle#highlighter-container {
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.highlighter-left-middle#highlighter-container {
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    flex-direction: column;
+}
+
+/* Color Picker Alignment Styles */
+.highlighter-top-middle#highlighter-color-picker {
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.highlighter-right-middle#highlighter-color-picker {
+    top: 50%;
+    right: 60px;
+    transform: translateY(-50%);
+}
+
+.highlighter-bottom-middle#highlighter-color-picker {
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.highlighter-left-middle#highlighter-color-picker {
+    top: 50%;
+    left: 60px;
+    transform: translateY(-50%);
+}

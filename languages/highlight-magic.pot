@@ -1,0 +1,99 @@
+# Copyright (C) 2024 pkthakur
+# This file is distributed under the same license as the Highlight Magic plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Highlight Magic 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/highlight-magic\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-10-01T12:00:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: highlight-magic\n"
+
+#. Plugin Name of the plugin
+msgid "Highlight Magic"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wppluginsforyou.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "This plugin will let logged in users to highlight texts in various colors. They can also delete or edit the color highlights."
+msgstr ""
+
+#. Author of the plugin
+msgid "pkthakur"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://isaas.in"
+msgstr ""
+
+#: highlight-magic.php:68
+msgid "Change Highlight Color"
+msgstr ""
+
+#: highlight-magic.php:69
+msgid "Remove Highlight"
+msgstr ""
+
+#: highlight-magic.php:101
+msgid "HighLight Magic Settings"
+msgstr ""
+
+#: highlight-magic.php:107
+msgid "Dot Alignment"
+msgstr ""
+
+#: highlight-magic.php:110
+msgid "Top Middle"
+msgstr ""
+
+#: highlight-magic.php:111
+msgid "Right Middle"
+msgstr ""
+
+#: highlight-magic.php:112
+msgid "Left Middle"
+msgstr ""
+
+#: highlight-magic.php:113
+msgid "Bottom Middle"
+msgstr ""
+
+#: highlight-magic.php:134
+msgid "Settings saved."
+msgstr ""
+
+#: highlight-magic.php:137
+msgid "Nonce verification failed. Settings not saved."
+msgstr ""
+
+#: highlight-magic.php:170
+msgid "User not logged in"
+msgstr ""
+
+#: highlight-magic.php:174
+msgid "Nonce verification failed"
+msgstr ""
+
+#: highlight-magic.php:178
+msgid "Missing required data"
+msgstr ""
+
+#: highlight-magic.php:215
+msgid "Post ID not provided"
+msgstr ""
+
+#: highlight-magic.php:260
+msgid "No highlights found"
+msgstr ""
+
+#: highlight-magic.php:276
+msgid "Highlight not found"
+msgstr ""
